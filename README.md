@@ -9,13 +9,19 @@ I am a software developer focused on engineering robust backend architectures, a
 ### 🛠️ Technical Arsenal
 * **Languages:** Java, Python, JavaScript, HTML, CSS
 * **Backend & Frameworks:** Spring Boot, Node.js, Express.js
-* **Databases:** PostgreSQL, MongoDB
+* **Databases & State:** PostgreSQL, MongoDB, Redis
+* **Messaging & Infrastructure:** Apache Kafka, Docker, Prometheus, Grafana
 * **Frontend:** React.js
-* **AI & Tools:** Google Gemini API, OpenCV, Git, Google Analytics
+* **AI & Tools:** Google Gemini API, OpenCV, Git
 
 ---
 
 ### 🚀 Featured Projects
+
+* **Meridian | Distributed Task Orchestrator**
+    * Engineered a highly available, distributed task orchestrator mimicking Kubernetes workload scheduling using Java 17, Spring Boot, and Apache Kafka.
+    * Decoupled API ingestion, resource scheduling, and worker execution across three microservices, leveraging Redis for real-time cluster state management.
+    * Integrated a full observability stack with Prometheus and Grafana to monitor JVM metrics, Kafka throughput, and distributed resource allocation in real-time.
 
 * **PrepMate | AI-Powered Mock Exam Engine**
     * Engineered a backend architecture utilizing a Spring Boot REST API and PostgreSQL to manage course schemas and parse PDFs.
